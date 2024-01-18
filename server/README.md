@@ -33,8 +33,8 @@ product: ObjectId
 POST /productfeeds
 
 Parameters:
-url: String
-title: String
+url*: String
+title*: String
 ```
 
 ```
@@ -45,31 +45,44 @@ GET /productfeeds/:id/generate - Work in progress
 PUT /productfeeds/:id
 
 Parameters:
-products: Array (send as array in body)
+products*: Array (send as array in body)
 ```
 
 ```
 DELETE /productfeeds
+
 Parameters:
-id: ObjectId
+id*: ObjectId
 ```
 
 ### Templates
 
 ```
 GET /templates/:id
+
+Parameters:
+-
 ```
 
 ```
 POST /templates
+
+Parameters:
+title*: String
 ```
 
 ```
 POST /templates/:id
+
+Parameters:
+canvas*: CanvasObject (send unnamed in body)
 ```
 
 ```
 DELETE /templates
+
+Parameters:
+id*: ObjectId
 ```
 
 
@@ -79,13 +92,17 @@ DELETE /templates
 POST /users/register
 
 Parameters:
-
+name*: String
+email*: String
+password*: String
 ```
 
 ```
 POST /users/login
 
 Parameters:
+email*: String
+password*: String
 ```
 
 
