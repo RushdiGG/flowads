@@ -1,0 +1,10 @@
+.dashboard-layout {
+  padding-top: 64px;
+  padding-left: 240px;
+  overflow-y: scroll;
+  height: 100vh;
+}
+
+.padding {
+  padding: 60px;
+}

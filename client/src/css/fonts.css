@@ -1,0 +1,22 @@
+@font-face {
+  /* Essential deinitions. Without one them the font-face is considered invalid */
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Regular.tff") format("tff");
+
+  /*
+  "Guard" definitions.
+  They define the cases when the current font-face should be used.
+  They can all be omitted in a font-face definition
+  */
+  font-feature-settings: normal;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* File: font.css */
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Bold.tff") format("tff");
+  font-style: bold;
+  font-weight: 600;
+}
