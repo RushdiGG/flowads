@@ -2,7 +2,7 @@
 Stack: Node.js, Express.js & MongoDB
 
 ## Flowads description
-The program is used to create multiple ads for social media platforms simultaneously by creating templates that are then paired with a feed of product images.
+The API is used to create multiple ads for social media platforms simultaneously by creating templates that are then paired with a feed of product images.
 
 ## API Endpoints
 
